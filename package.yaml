@@ -24,6 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - monad-par
 
 executables:
   number-recognition-haskell-exe:
